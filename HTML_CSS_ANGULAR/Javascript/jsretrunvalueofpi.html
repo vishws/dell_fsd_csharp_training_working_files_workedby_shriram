@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Value of PI</title>
+	</head>
+
+	<body>
+		<p>Calling a function to return value of PI:</p>
+		<p id="demo"></p>
+		<script>
+			function piFunction() {
+				return Math.PI;
+			}
+
+			console.log(piFunction());
+			document.getElementById("demo").innerHTML = piFunction();
+		</script>
+	</body>
+</html>

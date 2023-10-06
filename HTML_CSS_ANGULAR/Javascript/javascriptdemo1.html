@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript">
+        // alert("welcome");
+        var x = 5;
+        var y = 6;
+        var z = x + y;
+        document.write("The value of z is: " + z);
+
+        function myFunction() {
+            alert("welcome to function");
+        }
+
+        function myFunctionadd(p1, p2) {
+
+            document.write("The value of addition is: " + (p1 + p2));
+            // alert("The value of addition is: " + (p1 + p2));
+        }
+
+        function myfunctionsub(p1, p2) {
+            // document.write("The value of subtraction is: " + (p1 - p2));
+            alert("The value of subtraction is: " + (p1 - p2));
+        }
+
+        function myfunctionmul(p1, p2) {
+            // document.write("The value of multiplication is: " + (p1 * p2));
+            //alert("The value of multiplication is: "+((p1*p2)));
+            console.log("The value of multiplication is: " + (p1 * p2));
+        }
+
+        // function retrunfunction(p1, p2) {
+        //     return p1 + p2;
+        // }
+    </script>
+</head>
+
+<body>
+    <p> calling the function1</p>
+    </br>
+
+    <button onclick="myFunction()">fucntion1</button>
+    <p> calling the functions</p>
+    <button onclick="myFunctionadd(2,5)">myFunctionadd</button>
+    <button onclick="myfunctionsub(50,25)">myfunctionsub</button>
+    <button onclick="myfunctionmul(10,5)">myfunctionmul</button>
+    <!-- <button onlick="return retrunfunction(2,2)"></button> -->
+
+</body>
+
+</html

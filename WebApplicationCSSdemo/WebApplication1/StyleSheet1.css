@@ -1,0 +1,14 @@
+﻿body {
+    background-color:cyan;
+    font-family:Britannic;
+    font-size:medium;
+}
+
+.btnstyle
+{
+    border-block-style:double;
+}
+.lststyle
+{
+    border-block-color:red;
+}

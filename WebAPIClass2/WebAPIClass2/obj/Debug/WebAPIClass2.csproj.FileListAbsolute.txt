@@ -1,0 +1,2 @@
+C:\Users\vishws\C#Training\WebAPIClass2\WebAPIClass2\obj\Debug\WebAPIClass2.csproj.AssemblyReference.cache
+C:\Users\vishws\C#Training\WebAPIClass2\WebAPIClass2\obj\Debug\WebAPIClass2.csproj.CoreCompileInputs.cache

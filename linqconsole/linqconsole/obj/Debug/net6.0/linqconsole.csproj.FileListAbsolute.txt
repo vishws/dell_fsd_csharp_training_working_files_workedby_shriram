@@ -1,0 +1,15 @@
+C:\Users\vishws\C#Training\linqconsole\linqconsole\bin\Debug\net6.0\linqconsole.exe
+C:\Users\vishws\C#Training\linqconsole\linqconsole\bin\Debug\net6.0\linqconsole.deps.json
+C:\Users\vishws\C#Training\linqconsole\linqconsole\bin\Debug\net6.0\linqconsole.runtimeconfig.json
+C:\Users\vishws\C#Training\linqconsole\linqconsole\bin\Debug\net6.0\linqconsole.dll
+C:\Users\vishws\C#Training\linqconsole\linqconsole\bin\Debug\net6.0\linqconsole.pdb
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.csproj.AssemblyReference.cache
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.AssemblyInfoInputs.cache
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.AssemblyInfo.cs
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.csproj.CoreCompileInputs.cache
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.dll
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\refint\linqconsole.dll
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.pdb
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\linqconsole.genruntimeconfig.cache
+C:\Users\vishws\C#Training\linqconsole\linqconsole\obj\Debug\net6.0\ref\linqconsole.dll

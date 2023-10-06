@@ -1,0 +1,8 @@
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\bin\Debug\ConsoleAppCOnsumer.exe.config
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\bin\Debug\ConsoleAppCOnsumer.exe
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\bin\Debug\ConsoleAppCOnsumer.pdb
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\obj\Debug\ConsoleAppCOnsumer.csproj.AssemblyReference.cache
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\obj\Debug\ConsoleAppCOnsumer.csproj.SuggestedBindingRedirects.cache
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\obj\Debug\ConsoleAppCOnsumer.csproj.CoreCompileInputs.cache
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\obj\Debug\ConsoleAppCOnsumer.exe
+C:\Users\vishws\C#Training\WcfServiceLibrary1\ConsoleAppCOnsumer\obj\Debug\ConsoleAppCOnsumer.pdb

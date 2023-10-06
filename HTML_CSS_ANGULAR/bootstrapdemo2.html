@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- below is needed for Glyphicon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- below is needed for badged -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+        <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+        <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+        <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+        <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
+
+        <!-- <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+        <span class="badge badge-pill badge-dark">Dark</span> -->
+
+    </div>
+    </br>
+    </br>
+    </br>
+
+    <div class="container">
+        <h2>Glyphicon Examples</h2>
+        <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+        <p>
+            Envelope icon as a link:
+            <a href="#">
+                <span class="glyphicon glyphicon-envelope"></span>
+            </a>
+        </p>
+        <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+        <p>
+            Search icon on a button:
+            <button type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-search"></span> Search
+				</button>
+        </p>
+        <p>
+            Search icon on a styled button:
+            <button type="button" class="btn btn-info">
+					<span class="glyphicon glyphicon-search"></span> Search
+				</button>
+        </p>
+        <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+        <p>
+            Print icon on a styled link button:
+            <a href="#" class="btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-print"></span> Print
+            </a>
+        </p>
+    </div>
+    </br>
+    </br>
+    </br>
+
+    <div class="container">
+        <h2>Table in Bootstap</h2>
+        <p>here we are using both table striped and bordered property in the same table class </p>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </br>
+    </br>
+    <div class="container">
+        <h2>Basic List Group</h2>
+        <ul class="list-group">
+            <li class="list-group-item active">Shriram</li>
+            <li class="list-group-item">Shri</li>
+            <li class="list-group-item">Ram</li>
+        </ul>
+
+        </br>
+        </br>
+
+        <div class="container">
+            <h2>Using buttons</h2>
+            <button type="button" class="btn btn-primary">primary</button>
+            <button type="button" class="btn btn-secondary">secondary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            </button>
+        </div>
+
+        </br>
+        </br>
+        <!-- it gives button as group of sub buttons  -->
+        <div class="btn-group" role="group">
+
+            <h3>Using buttons groups </h3>
+
+            <button type="button" class="btn btn-primary">Yes</button>
+            <button type="button" class="btn btn-info">No</button>
+            <button type="button" class="btn btn-danger">Exit</button>
+
+        </div>
+
+        </br>
+        </br>
+        <!-- it gives button as drop down -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+            Warning <span class="myclass"> </span></button>
+
+            <ul class="dropdown-menu" role="menu">
+                <li a ref="#">Shriram</li>
+                <li a ref="#">Shri</li>
+                <li a ref="#">Ram</li>
+                <li class="divider"></li>
+                <li a ref="#">Next element after divider</li>
+            </ul>
+        </div>
+
+        </br>
+        </br>
+
+        <!--  statefull buttons -->
+        <!-- checkbox style -->
+        <div>
+            <label class="btn btn-primary active">
+            <input type ="checkbox" name="options">OptionA
+        </label>
+            <label class="btn btn-secondary">
+            <input type ="checkbox" name="options">OptionB
+        </label>
+            <label class="btn btn-danger">
+            <input type ="checkbox" name="options">OptionC
+        </label>
+        </div>
+
+        </br>
+        </br>
+        <!-- radio  style -->
+        <div>
+            <label class="btn btn-primary active">
+            <input type ="radio" name="options">OptionA
+        </label>
+            <label class="btn btn-secondary">
+            <input type ="radio" name="options">OptionB
+        </label>
+            <label class="btn btn-danger">
+            <input type ="radio" name="options">OptionC
+        </label>
+        </div>
+        </br>
+        </br>
+        <!-- header and footers -->
+
+        <div class="card broder-success mb-3" style="max-width:18rem;">
+            <div class="card-header bg-transparent border-success">Bootstrap</div>
+            <div class="card-body-text-success">
+                <h5 class="card-title">Header and Footer</h5>
+                <p class="card-text"> This is simplest way of using header and footer</p>
+            </div>
+
+            <div class="card-footer bg-transparent border-success">Updated 3 mintues ago</div>
+
+
+        </div>
+
+
+        </br>
+        </br>
+
+        <!--  one more footer example -->
+
+        <div class="jumbotron text-center">
+            <h1>My First Bootstrap Page</h1>
+            <p>Resize this responsive page to see the effect!</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Column 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Column 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Column 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                </div>
+            </div>
+        </div>
+        </br>
+        </br>
+
+        <!--  text allignment leftx center and right using card -->
+        <!-- clas="card" is same as "card text-left" 
+         "card text-right" ,  "card text-center" -->
+
+        <div class="card text-center" style="width:18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Rock Music</h5>
+                <p class="card-text"> A popular genre of music.</p>
+                <a href="#" class="btn btn-primary">Buy </a>
+
+            </div>
+
+        </div>
+        </br>
+        </br>
+
+        <div class="input-group">
+            <label class="form-lebel">Email Address: </label>
+            <input type="text" class="Form-control" placeholder="login">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="Form-control" placeholder="xxx.com">
+        </div>
+
+        </br>
+        </br>
+
+        <div class="form-control">
+
+
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+
+            <div class="mb-3">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+</body>
+
+</html>

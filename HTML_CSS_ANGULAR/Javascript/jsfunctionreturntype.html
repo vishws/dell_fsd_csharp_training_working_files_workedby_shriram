@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function with return type</title>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+        document.write("addition of two numbers are : " + add(eval(form1.text1.value), eval(form1.text2.value)));
+    </script>
+</head>
+
+<body>
+    <form id="form1">
+        Enter first number: <input type="text" name="text1"> </br>
+        </br>
+        Enter second number : <input type="text" name="text2"> </br>
+        </br>
+        <input type="button" value="click here" onclick="add(eval(form1.text1.value),eval(form1.text2.value))">
+    </form>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Function with return type</title>
+		<script>
+			function add(a, b) {
+				return a + b;
+			}
+
+			function calculateAndDisplay() {
+				var num1 = parseFloat(document.getElementById("text1").value);
+				var num2 = parseFloat(document.getElementById("text2").value);
+				var result = add(num1, num2);
+				document.getElementById("result").textContent =
+					"Addition of two numbers: " + result;
+			}
+		</script>
+	</head>
+
+	<body>
+		<form>
+			Enter first number: <input type="text" id="text1" /> <br /><br />
+			Enter second number: <input type="text" id="text2" /> <br /><br />
+			<input type="button" value="Click here" onclick="calculateAndDisplay()" />
+		</form>
+		<div id="result"></div>
+	</body>
+</html>

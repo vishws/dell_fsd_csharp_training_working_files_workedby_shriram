@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form learning</title>
+</head>
+
+<body>
+    <h1>FORM LEARNING</h1>
+    Enter your first name :
+    <input type=text>
+
+    </br>
+    </br>
+    Enter your last name :
+    <input type=text>
+    </br>
+    </br>
+
+    Select the gender :
+    <input type=radio>Male
+    <input type=radio>Female
+
+    </br>
+    </br>
+    Select the city :
+    <select>
+             <option>Bangalore</option>
+             <option>Mysore</option>
+             <option>Lucknow</option>
+             <option>Delhi</option>
+         </select>
+
+    </br>
+    </br>
+    Select the city :
+    <select multiple>
+             <option>Bangalore</option>
+             <option>Mysore</option>
+             <option>Lucknow</option>
+             <option>Delhi</option>
+         </select>
+    </br>
+    </br>
+    Select the city :
+    <select>
+             <option>Bangalore</option>
+             <option>Mysore</option>
+             <option>Lucknow</option>
+             <option selected>Delhi</option>
+         </select>
+    </br>
+    </br>
+    Enter the password :
+    <input type="password">
+
+    </br>
+    </br>
+    Enter address :
+    <textarea cols=30 rows=5>enter your address here</textarea>
+    </br>
+    </br>
+
+    <input type="button" value="click here">
+
+    </br>
+    </br>
+
+    <button>click here </button>
+
+    </br>
+    </br>
+    <input type=submit>
+    </br>
+    </br>
+
+    <input type="reset">
+
+    </br>
+    <br> Select Browser:
+    <input list="browsers">
+
+    <datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Google Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+    </br>
+    </br>
+    <hr> Calcualtion learning using form </hr>
+    </br>
+
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+    </form>
+    </br>
+    </br>
+    <hr> More input types </hr>
+    select color :
+    <input type="color">
+    </br>
+
+    Select date :
+    <input type="date" id="date1">
+
+    <br/> Select date time:
+    <input type="datetime-local" </body>
+
+</html>
