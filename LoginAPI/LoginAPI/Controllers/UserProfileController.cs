@@ -36,6 +36,9 @@ namespace LoginAPI.Controllers
                         // Save changes to the database
                         db.SaveChanges();
 
+                        
+                        db.SaveChanges();
+
                         return Ok(new Response
                         {
                             Status = "Success",

@@ -132,6 +132,7 @@ namespace LoginAPI.Controllers
                     }
                     else
                     {
+
                         // Create a new user object
                         Employeemaster Em = new Employeemaster();
                         if (Em.UserId == 0)
@@ -146,6 +147,18 @@ namespace LoginAPI.Controllers
                             Em.Address = Lvm.Address;
 
                             db.Employeemasters.Add(Em);
+                            db.SaveChanges();
+
+                            // Insert a record into the userprofile table
+                            UserProfile userProfile = new UserProfile
+                            {
+                                UserID = Em.UserId,
+                                FollowerCount = 0,
+                                Bio = "Blank",
+                                ProfilePictureURL = "Blank"
+                                
+                            };
+                            db.UserProfiles.Add(userProfile);
                             db.SaveChanges();
                             return new Response
                             { Status = "Success", Message = "Profile has been successfully created" };

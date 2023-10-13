@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  loginapi:
+    image: loginapi:dev
+    container_name: "LoginAPI_1"
+    build:
+      args:
+        source: obj/Docker/empty/
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "LoginAPI"
+    volumes:
+      - C:\Users\vishws\C#Training\LoginAPI\LoginAPI:C:\inetpub\wwwroot
+      - C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Remote Debugger:C:\remote_debugger:ro
+    entrypoint: cmd /c "start /B C:\\ServiceMonitor.exe w3svc & C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646"
+    environment:
+      - DEV_ENVIRONMENT=1
+      - VBCSCOMPILER_TTL=604800
+

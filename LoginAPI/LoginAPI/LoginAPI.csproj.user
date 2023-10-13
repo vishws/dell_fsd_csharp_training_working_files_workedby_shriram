@@ -17,6 +17,9 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
+    <ActiveDebugTarget>
+    </ActiveDebugTarget>
+    <NameOfLastUsedPublishProfile>C:\Users\vishws\C#Training\LoginAPI\LoginAPI\Properties\PublishProfiles\registry.hub.docker.com_vishws.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

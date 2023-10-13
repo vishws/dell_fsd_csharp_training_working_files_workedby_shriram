@@ -1,0 +1,16 @@
+name: dockercompose4281928036110188521
+services:
+  loginapi:
+    build:
+      context: C:\Users\vishws\C#Training\LoginAPI\LoginAPI
+      dockerfile: Dockerfile
+    image: loginapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose4281928036110188521_default
